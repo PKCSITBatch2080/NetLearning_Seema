@@ -1,4 +1,5 @@
 ﻿using System;
 
-const string FullName = "Seema Poudel";
-Console.WriteLine(FullName);
+string FullName = "Seema Poudel";
+string cFullName = FullName.ToUpper();
+Console.WriteLine($"Hello, {cFullName} Ji!");
