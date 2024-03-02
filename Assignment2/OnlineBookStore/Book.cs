@@ -21,6 +21,11 @@ public class Book : StoreItem, IDiscountable
         return discountRate;
      }
 
+    public decimal ApplyDiscount(decimal originalPrice)
+    {
+        return originalPrice * (1 - (discountRate / 100));
+    }
+
     //New virtual method to demonstrate overriding
      public virtual string GetBookCategory()
     {
