@@ -11,6 +11,6 @@ class CSStudent : Student, IGradeable  //Multiple Inheritance
     public string ProjectTitle { get; set; }
     public string InterWork { get; set; }
 
-    public double GetGrade() => 3, 6;
+    public double GetGrade() => 3;
 }
 
